@@ -1,0 +1,664 @@
+[ 2018-12-31T18:35:54+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '热门推荐'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:35:55+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:35:57+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '心理学'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:35:58+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '心理学'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:35:59+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '心理学'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:00+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '请选择'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php 第 59 行.
+SQL: SELECT * FROM `book` WHERE `claid` = null  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:01+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '请选择'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php 第 59 行.
+SQL: SELECT * FROM `book` WHERE `claid` = null  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:02+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '请选择'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php 第 59 行.
+SQL: SELECT * FROM `book` WHERE `claid` = null  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:03+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '请选择'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php 第 59 行.
+SQL: SELECT * FROM `book` WHERE `claid` = null  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:05+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '畅销版'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:06+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '畅销版'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:07+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '畅销版'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:08+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '畅销版'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:09+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '畅销版'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:10+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '畅销版'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:11+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:12+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:13+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:14+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:15+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0010s ]
+
+[ 2018-12-31T18:36:16+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:17+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:18+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '青春小说'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:19+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:21+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:22+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:23+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:24+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:25+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:26+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:27+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:28+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+
+[ 2018-12-31T18:36:29+08:00 ] ::1 /bookstore/Admin/Detailpic/selbookt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sort` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\Application\Admin\Controller\DetailpicController.class.php on line 46 and defined H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where H:\phpwork\myphp_www\PHPTutorial\WWW\bookstore\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `sort`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 24  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sort` WHERE `cate_name` = '世界名著'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `book` WHERE `claid` = 27  [ RunTime:0.0000s ]
+

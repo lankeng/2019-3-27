@@ -1,0 +1,43 @@
+[ 2018-12-06T15:22:14+08:00 ] ::1 /bookstore/Admin/Index/delbookcla.html
+ERR: Think\Model:delect方法不存在！
+
+[ 2018-12-06T15:40:43+08:00 ] ::1 /bookstore/Admin/Index/bookindex
+ERR: 1054:Unknown column 'bookid' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sort` WHERE ( bookid>=0 ) LIMIT 1  
+
+[ 2018-12-06T15:42:50+08:00 ] ::1 /bookstore/Admin/Index/bookindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookindex.html
+
+[ 2018-12-06T15:54:40+08:00 ] ::1 /bookstore/Admin/Index/bookindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookindex.html
+
+[ 2018-12-06T15:54:47+08:00 ] ::1 /bookstore/Admin/Index/bookindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookindex.html
+
+[ 2018-12-06T15:54:50+08:00 ] ::1 /bookstore/Admin/Index/bookindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookindex.html
+
+[ 2018-12-06T15:55:29+08:00 ] ::1 /bookstore/Admin/Index/bookindex
+ERR: 模板不存在:./Application/Admin/View/index/book.html
+
+[ 2018-12-06T16:02:46+08:00 ] ::1 /bookstore/Admin/Bookindex/bookindex
+ERR: 无法加载控制器:Bookindex
+
+[ 2018-12-06T16:04:24+08:00 ] ::1 /bookstore/Admin/Bookindex/bookindex
+ERR: 无法加载控制器:Bookindex
+
+[ 2018-12-06T16:10:49+08:00 ] ::1 /bookstore/Admin/Index/www.baidu.com
+ERR: 非法操作:www.baidu.com
+
+[ 2018-12-06T16:47:28+08:00 ] ::1 /bookstore/Admin/Index/bookindex.html?
+ERR: 模板不存在:./Application/Admin/View/Index/bookindex.html
+
+[ 2018-12-06T16:47:39+08:00 ] ::1 /bookstore/Admin/Index/bookindex.html?
+ERR: 模板不存在:./Application/Admin/View/Index/bookindex.html
+
+[ 2018-12-06T17:39:12+08:00 ] ::1 /bookstore/Admin/Index/bookindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookindex.html
+
+[ 2018-12-06T18:28:13+08:00 ] ::1 /bookstore/Admin/Bookindex/selsort
+ERR: 非法操作:selsort
+

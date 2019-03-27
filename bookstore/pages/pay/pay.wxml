@@ -1,0 +1,124 @@
+<!--pages/home/home-details/pay.wxml-->
+<view>
+  <form bindsubmit="createOrder" report-submit="true">
+    <view class="address-box">
+      <!--wx:if="{{isNeedLogistics > 0}}"-->
+      <view class="add-address" hidden="{{curAddressData}}">
+        <view class="title" bindtap="addAddress">新增收货地址</view>
+      </view>
+      <view class="show-address" bindtap="selectAddress">
+        <view wx:if="{{selectads}}">
+          <view class="name-tel">请选择地址</view>
+          <view class="addr-text"></view>
+        </view>
+        <view wx:else>
+            <view class="name-tel">{{recadress.recuser}}</view>
+            <view class="addr-text">{{recadress.area}} {{recadress.address}}</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='pay-main'>
+      <view class='main-one'>
+        <text>购物清单</text>
+      </view>
+
+
+      <view wx:if="{{hasdata===true}}">
+        <view class='main-two'>
+          <image src="{{data.image}}" class='main-image'></image>
+          <view class='main_left'>
+            <text class='main-title'>{{data.title}}</text>
+            <text class='main-price'>￥{{data.currentprice}}</text>
+          </view>
+          <view class='main_right'>
+            <text>x1</text>
+          </view>
+        </view>
+      </view>
+      <view wx:else>
+        <block wx:for="{{payItems}}" wx:for-item="item" wx:key="item">
+          <view class='main-two'>
+            <image src="{{item.image}}" class='main-image'></image>
+            <view class='main_left'>
+              <text class='main-title'>{{item.title}}</text>
+              <text class='main-price'>￥{{item.currentprice}}</text>
+            </view>
+            <view class='main_right'>
+              <text>x{{item.value}}</text>
+            </view>
+          </view>
+        </block>
+      </view>
+
+    </view>
+
+    <view class='pay-mainTwo'>
+      <view class='mianTwo-one'>
+        <text>配送时间</text>
+      </view>
+
+      <view class='mainTwo-two'>
+        <picker bindchange="select" value='{{index}}' range='{{array}}'>
+          <view class='array'>
+            <text>{{array[index]}}</text>
+            <image src='/images/right.png'></image>
+          </view>
+        </picker>
+      </view>
+    </view>
+
+
+
+    <view class='pay-mainThree'>
+      <view class='mainThree-one'>
+        <text>留言</text>
+      </view>
+
+      <view class='mainThree-two'>
+        <input placeholder="选填：给商家留言(100字以内)" bindblur='lmessage'></input>
+      </view>
+    </view>
+
+
+    <view wx:if="{{hasdata===true}}">
+      <view class='pay-mainFive'>
+        <view class='mainFive-one'>
+          <text class='left'>订单金额</text>
+          <text class='right'>￥{{data.currentprice}}</text>
+        </view>
+        <view class='mainFive-two'>
+          <text class='left'>运费</text>
+          <text class='right'>+￥0</text>
+        </view>
+        <view class='mainFive-three'>
+          <text class='left'>实际付款</text>
+          <text class='right'>￥{{data.currentprice}}</text>
+        </view>
+      </view>
+    </view>
+    <view wx:else>
+      <view class='pay-mainFive'>
+        <view class='mainFive-one'>
+          <text class='left'>订单金额</text>
+          <text class='right'>￥{{total}}</text>
+        </view>
+        <view class='mainFive-two'>
+          <text class='left'>运费</text>
+          <text class='right'>+￥0</text>
+        </view>
+        <view class='mainFive-three'>
+          <text class='left'>实际付款</text>
+          <text class='right'>￥{{total}}</text>
+        </view>
+      </view>
+    </view>
+    <button formType="submit" class='pay-Bottom' bindtap='pay'>微信支付</button>
+  </form>
+</view>
+
+<!-- 
+ <view class='pay_main'>
+        
+         </view>
+         -->

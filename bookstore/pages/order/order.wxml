@@ -1,0 +1,55 @@
+<view class='order'>
+  <view wx:if="{{showdata != ''}}">
+    <view wx:for="{{showdata}}" wx:key="item">
+      <view class='order-content'>
+        <view class='ocon-title'>
+          订单详情
+        </view>
+        <view class='ocon-thing'>
+          <view class='othing-left'>
+            <view wx:for="{{item.bookname}}" wx:key="itema" wx:for-item="itema" wx:for-index="index">
+              <view class='left-text'>{{itema}}</view>
+            </view>
+          </view>
+          <view class='othing-right'>
+            <view wx:for="{{item.booknum}}" wx:key="itemb" wx:for-item="itemb" wx:for-index="index">
+              <view class='right-num'>×{{itemb}}</view>
+            </view>
+          </view>
+        </view>
+        <view class='ocon-pay'>
+          <view class='opay-text'>
+            实付金额：￥{{item.pay}}
+          </view>
+        </view>
+        <view class='ocon-recevive'>
+          <view>收货人姓名：
+            <text class='person-text'>{{item.recuser}}</text>
+          </view>
+          <view class='ore-person'>收货人手机号：
+            <text class='person-text'>{{item.telnum}}</text>
+          </view>
+          <view class='ore-person'>收货人地址：
+            <text class='person-text'>{{item.area}} {{item.address}}</text>
+          </view>
+          <view class='ore-person'>送货时间：
+            <text class='person-text'>{{item.deliverytime}}</text>
+          </view>
+        </view>
+        <view class='ocon-state'>
+          <view class='ocon-cancel' bindtap='deleteorder' data-orderid='{{item.orderid}}'>取消订单</view>
+          <view wx:if="{{item.state == '待发货'}}" class="state">{{item.state}}</view>
+          <view wx:if="{{item.state == '包裹等待收揽'}}" class="statetwo">{{item.state}}</view>
+          <view wx:if="{{item.state == '已发货'}}" class="statethree">{{item.state}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:else>
+    <view class='no-order'>
+      <image src='../../images/order.png' class='order-noimg'></image>
+    </view>
+    <view class='noorder-text'>您还没有相关的订单</view>
+    <view class='noroder-warn'>去看看有哪些想买的</view>
+  </view>
+</view>

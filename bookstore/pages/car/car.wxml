@@ -1,0 +1,77 @@
+<!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> -->
+<view wx:if="{{showaho && canIUse}}" class='showaho'>
+  <view class="showaho-img"><open-data type="userAvatarUrl" ></open-data></view>
+  <view class='showaho-text'>允许微信授权后,即可加入购物车哦！</view>
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class='showaho-let'>授权登录</button>
+</view>
+<block wx:else>
+  <block wx:if="{{cartItems==''}}">
+    <view id='cart-container'>
+      <view id='cart-empty'>
+        <image src="/images/shoppingcart3.png"></image>
+      </view>
+      <view>
+        <text>您还没有添加商品到购物车，快去逛一逛</text>
+      </view>
+      <view>
+        <navigator id='go-shopping' url="/pages/index/index" open-type="switchTab">逛一逛</navigator>
+      </view>
+    </view>
+  </block>
+  <block wx:else>
+    <view class='cartMain'>
+      <view wx:for="{{cartItems}}" wx:key='item'>
+        <view data-id="{{item.children[0].id}}" class='cart-box' data-index="{{index}}">
+          <view class='icon'>
+            <icon wx:if="{{item.children[0].selected}}" type="success" color="#405F80" size="20" bindtap="selectedCart" data-index="{{index}}" />
+            <icon wx:else type="circle" bindtap="selectedCart" size="20" data-index="{{index}}" />
+          </view>
+
+          <view class='cart_main'>
+            <view class='left'>
+              <view class='left_imgae' bindtap='todetail' data-id='{{item.children[0].id}}' data-img='{{item.children[0].image}}' data-title='{{item.children[0].title}}' data-claid='{{item.claid}}'>
+                <image class="cart-image" src="{{item.children[0].image}}"></image>
+              </view>
+
+              <view class='left_box'>
+                <text class="cart-title">{{item.children[0].title}}</text>
+                <text class="cart-price">￥{{item.children[0].currentprice}}</text>
+
+                <text bindtap='reduce' class="input cart-reduce" data-index="{{index}}">-</text>
+                <text class="input cart-text">{{item.children[0].value}}</text>
+                <text bindtap='add' class="input cart-add" data-index="{{index}}">+</text>
+              </view>
+            </view>
+
+            <view class='right'>
+              <image src='/images/delete.png' bindtap='shanchu' data-index="{{index}}"></image>
+            </view>
+          </view>
+
+
+          <!-- 底部 -->
+          <view class="cart-bottom">
+            <icon wx:if="{{CheckAll}}" class="cart-icon" type="success" color="#405F80" size="20" bindtap="select" data-index="{{index}}" />
+            <icon wx:else type="circle" class="cart-icon" size="20" bindtap="select" data-index="{{index}}" />
+            <text class='checkAll'>全选</text>
+
+            <view class='cart-payall'>
+              <text class='cart_paycol' bindtap='topay'>结算</text>
+            </view>
+
+            <view class='cart-pay'>
+              <text class='cart_paycol' bindtap="go" data-id="{{item.children[0].id}}">清空购物车</text>
+            </view>
+
+            <view class='cart-sum'>
+              <text class='cart_sum'>
+          <text class='sum_text'>合计：</text>
+              <text class='sum_color'>￥{{total}}元</text>
+              </text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</block>

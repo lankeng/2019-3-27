@@ -1,0 +1,141 @@
+page{
+  padding-bottom: 20rpx;
+}
+.order{
+  width: 100%;
+}
+.order-content{
+  width: 100%;
+  border-top: 1rpx solid #e9e9e9;
+  border-bottom: 1rpx solid #e9e9e9;
+  margin-top: 20rpx;
+  padding-bottom: 10rpx
+}
+.ocon-title{
+  width: 100%;
+  background-color: #f8f8f8;
+  font-size: 30rpx;
+  color: #9d9d9d;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  padding-left: 20rpx;
+}
+.ocon-thing{
+  width: 90%;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: block;
+  margin: auto;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+.othing-left{
+  display: inline-block;
+  width: 70%
+}
+.othing-right{
+  width: 30%;
+  display: inline-block;
+  position: relative;
+}
+.left-text{
+  font-size: 30rpx;
+  margin-left: 40rpx;
+  color: #222222;
+  margin-top: 20rpx;
+}
+.right-num{
+  color: #222222;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  position: relative;
+  right: -135rpx;
+  color: #a2a2a2;
+}
+.ocon-pay{
+  width: 100%;
+  margin: auto;
+  border-bottom: 1rpx solid #e9e9e9;
+  padding: 20rpx 0rpx;
+}
+.opay-text{
+  font-size: 30rpx;
+  color: #f68652;
+  text-align: right;
+  position: relative;
+  right: 30rpx;
+}
+.ocon-recevive{
+  width: 80%;
+  margin: auto;
+  padding: 20rpx 0rpx;
+  font-size: 25rpx;
+  color: #9d9d9d;
+}
+.ore-person{
+  margin-top: 20rpx;
+}
+
+.ocon-state{
+  padding: 10rpx 0rpx;
+  width: 100%;
+  display: block;
+}
+.state{
+  font-size: 30rpx;
+  color: #e90000;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 40%
+}
+.statetwo{
+  font-size: 30rpx;
+  color: #e9e900;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 40%
+}
+.statethree{
+  font-size: 30rpx;
+  color: #129d12;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 40%
+}
+.ocon-cancel{
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  font-size: 30rpx;
+  color: #d2d2d2;
+  padding: 10rpx;
+  margin-left: 5%;
+  border: 1rpx solid #d2d2d2;
+}
+.order-noimg{
+  width: 100%;
+  height: 100%;
+}
+.no-order{
+  width: 430rpx;
+  height: 450rpx;
+  margin: auto;
+  position: relative;
+  top: 250rpx;
+}
+.noorder-text{
+  color: #292929;
+  font-size: 30rpx;
+  text-align: center;
+  position: relative;
+  top: 130rpx;
+}
+.noroder-warn{
+  color: #a2a2a2;
+  text-align: center;
+  position: relative;
+  top: 135rpx;
+  font-size: 20rpx;
+}

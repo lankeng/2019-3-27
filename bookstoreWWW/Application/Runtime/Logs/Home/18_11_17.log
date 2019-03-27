@@ -1,0 +1,13 @@
+[ 2018-11-17T14:20:15+08:00 ] ::1 /bookstore/Home/Login/index
+ERR: 无法加载控制器:Login
+
+[ 2018-11-17T14:21:49+08:00 ] ::1 /bookstore/Home/User/index
+ERR: 1146:Table 'bookstore.fun_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fun_user`
+
+[ 2018-11-17T16:20:38+08:00 ] ::1 /bookstore/Home/Book/bokkInfo
+ERR: 非法操作:bokkInfo
+
+[ 2018-11-17T16:20:55+08:00 ] ::1 /bookstore/Home/Book/bkeInfo
+ERR: 非法操作:bkeInfo
+

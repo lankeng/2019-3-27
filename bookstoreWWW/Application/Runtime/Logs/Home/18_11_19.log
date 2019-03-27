@@ -1,0 +1,15 @@
+[ 2018-11-19T09:49:04+08:00 ] ::1 /bookstore/Home/Book/bookInfo
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-11-19T09:49:04+08:00 ] ::1 /bookstore/Home/Book/bookInfo
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-11-19T09:49:05+08:00 ] ::1 /bookstore/Home/User/index
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-11-19T10:06:48+08:00 ] ::1 /bookstore/index.php
+ERR: 无法加载控制器:Index
+
+[ 2018-11-19T11:26:07+08:00 ] ::1 /bookstore/index.php
+ERR: 无法加载控制器:Index
+

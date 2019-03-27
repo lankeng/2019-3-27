@@ -1,0 +1,79 @@
+<view class="mybuy">
+  <view wx:if="{{showaho && canIUse}}">
+    <view class="mubuy-header">
+      <image src='{{moimg}}' class='hedaer-img'></image> 
+      <button class='header-text' open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">请授权登录</button>
+    </view>
+    <!--index.wxml-->
+    <view class='mybuy-mid'></view>
+    <view class="container">
+      <view class="info_list">
+        <view class="weui_cell">
+          <view class="weui_cell_hd">
+            <image src="../../images/link.png"></image>
+          </view>
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p"> 联系客服 </view>
+          </view>
+          <view class="weui_cell_bf">
+            <view class="weui_cell_bd_p"> 020-123456 </view>
+          </view>
+        </view>
+        <view class="weui_cell" bindtap='aboutUs'>
+          <view class="weui_cell_hd">
+            <image src="../../images/aboutme.png"></image>
+          </view>
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p">关于我们</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:else>
+    <view class="mubuy-header">
+      <image src='{{moimg}}' class='hedaer-img'></image>
+      <view class='header-texta'>{{nickName}}</view>
+    </view>
+    <view class='mybuy-mid'></view>
+    <view class="container">
+      <view class="info_list">
+        <view class="weui_cell" bindtap='toorder'>
+          <view class="weui_cell_hd">
+            <image src="../../images/daifahuo.png"></image>
+          </view>
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p"> 我的订单 </view>
+          </view>
+        </view>
+        <view class="weui_cell" bindtap='toaddress'>
+          <view class="weui_cell_hd">
+            <image src="../../images/receive.png"></image>
+          </view>
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p"> 收货地址管理 </view>
+          </view>
+        </view>
+        <view class="weui_cell">
+          <view class="weui_cell_hd">
+            <image src="../../images/link.png"></image>
+          </view>
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p"> 联系客服 </view>
+          </view>
+          <view class="weui_cell_bf">
+            <view class="weui_cell_bd_p telnum"> 020-123456 </view>
+          </view>
+        </view>
+        <view class="weui_cell" bindtap='aboutUs'>
+          <view class="weui_cell_hd">
+            <image src="../../images/aboutme.png"></image>
+          </view>
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p">关于我们</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

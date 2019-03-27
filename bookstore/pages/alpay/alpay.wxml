@@ -1,0 +1,6 @@
+<!--pages/alpay/alpay.wxml-->
+<view class='alpay'>
+  <image src='../../images/pay.png' class='alpay-img'></image>
+  <view class='alpay-text'>恭喜您，支付成功!</view>
+  <navigator class='alpay-btn' url='/pages/index/index' open-type="switchTab">继续逛逛</navigator>
+</view>

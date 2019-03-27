@@ -1,0 +1,37 @@
+[ 2018-11-02T09:02:46+08:00 ] ::1 /Fun/Admin/Index/article-list.html
+ERR: 非法操作:article-list
+
+[ 2018-11-02T09:02:50+08:00 ] ::1 /Fun/Admin/Index/picture-list.html
+ERR: 非法操作:picture-list
+
+[ 2018-11-02T10:54:10+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: 1048:Column 'cid' cannot be null
+ [ SQL语句 ] : INSERT INTO `ydianyin_music` (`cid`,`name`,`url`,`page`,`type`,`typename`) VALUES (NULL,NULL,'http://y2-a-p.qq190.net','1',NULL,NULL)
+
+[ 2018-11-02T12:46:49+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: 1048:Column 'cdnurl' cannot be null
+ [ SQL语句 ] : INSERT INTO `ydianyin_music` (`cid`,`name`,`url`,`cdnurl`,`page`,`type`,`typename`,`create_time`,`update_time`) VALUES ('2871830','兮雅 - 原来梦见谁是因为太喜欢','http://y2-a-p.qq190.net/UserSongs/2018/11/a78b9ce6f43e4438a785e873530fd2d7_455446.m4a',NULL,'1','0','0','2018-11-01 14:09:34','2018-11-02 12:46:49')
+
+[ 2018-11-02T14:18:05+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: 1048:Column 'cdnurl' cannot be null
+ [ SQL语句 ] : INSERT INTO `ydianyin_music` (`cid`,`name`,`url`,`cdnurl`,`page`,`type`,`typename`,`create_time`,`update_time`) VALUES ('2872510','赵小涣 - 上劲儿你就摇','http://y2-a-p.qq190.net/UserSongs/2018/11/68c2de686ca542eca34e6b031dd57998_1552832.m4a',NULL,'1','0','0','2018-11-01 18:45:03','2018-11-02 14:18:05')
+
+[ 2018-11-02T14:21:22+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: 1048:Column 'cdnurl' cannot be null
+ [ SQL语句 ] : INSERT INTO `ydianyin_music` (`cid`,`name`,`url`,`cdnurl`,`page`,`type`,`typename`,`create_time`,`update_time`) VALUES ('2872510','赵小涣 - 上劲儿你就摇','http://y2-a-p.qq190.net/UserSongs/2018/11/68c2de686ca542eca34e6b031dd57998_1552832.m4a',NULL,'1','0','0','2018-11-01 18:45:03','2018-11-02 14:21:22')
+
+[ 2018-11-02T14:23:32+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: 1048:Column 'cdnurl' cannot be null
+ [ SQL语句 ] : INSERT INTO `ydianyin_music` (`cid`,`name`,`url`,`cdnurl`,`page`,`type`,`typename`,`create_time`,`update_time`) VALUES ('2872510','赵小涣 - 上劲儿你就摇','http://y2-a-p.qq190.net/UserSongs/2018/11/68c2de686ca542eca34e6b031dd57998_1552832.m4a',NULL,'1','0','0','2018-11-01 18:45:03','2018-11-02 14:23:32')
+
+[ 2018-11-02T14:38:16+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: 1048:Column 'cdnurl' cannot be null
+ [ SQL语句 ] : INSERT INTO `ydianyin_music` (`cid`,`name`,`url`,`cdnurl`,`page`,`type`,`typename`,`create_time`,`update_time`) VALUES ('2872510','赵小涣 - 上劲儿你就摇','http://y2-a-p.qq190.net/UserSongs/2018/11/68c2de686ca542eca34e6b031dd57998_1552832.m4a',NULL,'1','0','0','2018-11-01 18:45:03','2018-11-02 14:38:16')
+
+[ 2018-11-02T16:16:32+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: 1048:Column 'cdnurl' cannot be null
+ [ SQL语句 ] : INSERT INTO `ydianyin_music` (`cid`,`musicid`,`name`,`url`,`cdnurl`,`page`,`type`,`typename`,`create_time`,`update_time`) VALUES ('2873961','2873961','【唯美旋律】就是你酷哥❗ - In the eyes_南兮','http://y2-a-p.qq190.net/UserSongs/2018/11/2293838161fc41efb55bb3dce19cc75a_7040879.m4a',NULL,'2','0','0','2018-11-02 07:28:31','2018-11-02 16:16:32')
+
+[ 2018-11-02T16:54:09+08:00 ] ::1 /Fun/Admin/Y/lsddGrap
+ERR: Think\Model:fileds方法不存在！
+

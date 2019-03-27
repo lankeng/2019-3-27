@@ -1,0 +1,35 @@
+<view class='container'>
+  <view id='view_search'>
+    <form bindinput='getform' class='container-search'>
+      <view id='view_input'>
+        <input id='search_goods' placeholder='{{searchGoods}}' confirm-type='search' bindinput='getInput' name="searchtitle" />
+      </view>
+      <view id='view_btn'>
+        <button id='btn_search' bindtap='search'>{{search}}</button>
+      </view>
+    </form>
+  </view>
+
+  <scroll-view scroll-y='true'>
+    <view wx:if="{{centent_Show}}">
+      <view wx:for="{{searchbook}}" wx:for-item="bookcla" wx:key="bookcla" wx:for-index="indexclaid">
+        <view wx:for="{{bookcla.children}}" wx:for-item="book" wx:key="book" wx:for-index="indexid">
+          <view class='search-con' bindtap='todetail' data-id='{{book.id}}' data-claid='{{book.claid}}' data-indexclaid='{{indexclaid}}' data-indexid="{{indexid}}">
+            <view class='search-img'>
+              <image src='{{book.image}}' class='img-self'></image>
+            </view>
+            <view class='search-title'>{{book.title}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view wx:else>
+      <view class='nosearch'>
+        <image src='/images/nosearch.png' class='nosearch-img'></image>
+      </view>
+      <view class='nosearch-text'>
+        抱歉，没找到您搜索的商品
+      </view>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,21 @@
+<view class="container">
+  <scroll-view scroll-y="true">
+    <view class="address-list">
+      <view class="a-address" wx:for-items="{{addressList}}" wx:key="{{index}}">
+        <view class="left-text {{item.isDefault? 'active':''}}" bindtap="selectTap" disabled="true" data-addid="{{item.addid}}">
+          <view class="name-tel">
+            {{item.recuser}} {{item.telnum}}
+          </view>
+          <view class="address-box">
+            {{item.area}} {{item.address}}
+          </view>
+        </view>
+        <view class="right-edit" bindtap="editAddess" data-addid="{{item.addid}}"></view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="bottom-box">
+    <view class="add-btn" bindtap="addAddess">新增收货地址</view>
+  </view>
+
+</view>

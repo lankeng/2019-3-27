@@ -1,0 +1,57 @@
+<view class='sindex'>
+  <view>
+    <swiper autoplay='{{autoplay}}' interval='{{interval}}' class='sindex-swiper'>
+        <swiper-item>
+          <image src='{{figureone}}' class='slide-image' mode='scaleToFill'></image>
+        </swiper-item>
+        <swiper-item>
+          <image src='{{figuretwo}}' class='slide-image' mode='scaleToFill'></image>
+        </swiper-item>
+        <swiper-item>
+          <image src='{{figurethree}}' class='slide-image' mode='scaleToFill'></image>
+        </swiper-item>
+    </swiper>
+  </view>
+  <view class='sindex-title'>
+    <view class='title-cla'>
+      图书榜
+    </view>
+  </view>
+  <view id="book_lists">
+    <block wx:for-items='{{tabs}}' wx:key='{{index}}'>
+      <view class="book_list_item {{currentTabsIndex == index ? 'selected' : ''}}" bindtap='tabClick' data-index='{{index}}'>{{item}}</view>
+    </block>
+  </view>
+
+  <scroll-view scroll-y="true" id='scroll-list' bindscrolltolower="scrolltolower">
+    <block wx:for-items="{{books[bookindex].children}}" wx:for-item="book" wx:key='item'>
+      <view class="book-item" bindtap="viewDetail" catchtap='btn' data-id="{{book.id}}"  data-title="{{book.title}}">
+        <view class="book-image">
+          <image src="{{book.image}}"></image>
+        </view>
+        <view class="book-info">
+          <view class='info-title'>
+            <text class="book-title">{{book.title}}</text>
+          </view>
+          <view class='info-other'>
+            <text class="label">作者：</text>
+            <text class="text">{{book.author}}</text>
+          </view>
+          <view class='info-other'>
+            <text class="label">出版社：</text>
+            <text class="text">{{book.publisher}}</text>
+          </view>
+          <view class='info-other'>
+            <text class="label">出版时间：</text>
+            <text class="text">{{book.pubTime}}</text>
+          </view>
+          <view class="price" class='info-other'>
+            <text class="current-price">￥{{book.currentprice}}</text>
+            <text class="org-price">￥{{book.price}}</text>
+            <text class="discount">{{book.discount}}折</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+</view>

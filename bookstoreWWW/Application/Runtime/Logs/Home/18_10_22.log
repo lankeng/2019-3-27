@@ -1,0 +1,27 @@
+[ 2018-10-22T12:23:51+08:00 ] ::1 /Fun/Home/welcomeController.class.php
+ERR: 无法加载控制器:WelcomeController.class.php
+
+[ 2018-10-22T14:34:35+08:00 ] ::1 /Fun/Home/Welcome/a
+ERR: 1054:Unknown column 'oUExV4460s9TNOuJwLXUIACzApbk' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `fun_user` WHERE ( oUExV4460s9TNOuJwLXUIACzApbk ) 
+
+[ 2018-10-22T14:36:54+08:00 ] ::1 /Fun/Home/Welcome/a
+ERR: 1054:Unknown column 'oUExV4460s9TNOuJwLXUIACzApbk' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `fun_user` WHERE ( oUExV4460s9TNOuJwLXUIACzApbk ) 
+
+[ 2018-10-22T14:39:34+08:00 ] ::1 /Fun/Home/Welcome/a
+ERR: 1054:Unknown column 'oUExV4460s9TNOuJwLXUIACzApbk' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `fun_user` WHERE ( oUExV4460s9TNOuJwLXUIACzApbk ) 
+
+[ 2018-10-22T14:42:58+08:00 ] ::1 /Fun/Home/Welcome/a
+ERR: 1054:Unknown column 'oUExV4460s9TNOuJwLXUIACzApbk' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `fun_user` WHERE ( oUExV4460s9TNOuJwLXUIACzApbk ) 
+
+[ 2018-10-22T14:43:54+08:00 ] ::1 /Fun/Home/Welcome/a
+ERR: 1054:Unknown column 'oUExV4460s9TNOuJwLXUIACzApbk' in 'where clause'
+ [ SQL语句 ] : UPDATE `fun_user` SET `userCode`='081aQTjm1ASXVj0Wgbjm1kqQjm1aQTj1',`userOpenId`='oUExV4460s9TNOuJwLXUIACzApbk',`userAvatarUrl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKfNticCvATj7fz6OwibqKU7FwJarWMTtc0Qaw0oWnzmrkXOtAQes93pqegPZAIK0ek8m6QhRNfbsxQ/132',`userCity`='',`userCountry`='',`userGender`='0',`userLanguage`='en',`userNickName`='尚达',`userProvince`='' WHERE ( oUExV4460s9TNOuJwLXUIACzApbk )
+
+[ 2018-10-22T14:45:07+08:00 ] ::1 /Fun/Home/Welcome/a
+ERR: 1062:Duplicate entry '011cRadx17Fdb900rHcx1gJOcx1cRadJ' for key 'UserCode'
+ [ SQL语句 ] : INSERT INTO `fun_user` (`userCode`,`userOpenId`,`userAvatarUrl`,`userCity`,`userCountry`,`userGender`,`userLanguage`,`userNickName`,`userProvince`) VALUES ('011cRadx17Fdb900rHcx1gJOcx1cRadJ','oUExV4460s9TNOuJwLXUIACzApbk','https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKfNticCvATj7fz6OwibqKU7FwJarWMTtc0Qaw0oWnzmrkXOtAQes93pqegPZAIK0ek8m6QhRNfbsxQ/132','','','0','en','尚达','')
+

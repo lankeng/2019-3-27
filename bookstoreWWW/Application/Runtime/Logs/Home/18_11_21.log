@@ -1,0 +1,18 @@
+[ 2018-11-21T09:54:18+08:00 ] ::1 /bookstore/index.php
+ERR: 无法加载控制器:Index
+
+[ 2018-11-21T10:04:06+08:00 ] ::1 /bookstore/Home/Address/maaddress
+ERR: 1062:Duplicate entry '7' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `address` (`addid`) VALUES ('7')
+
+[ 2018-11-21T10:07:50+08:00 ] ::1 /bookstore/Home/Address/maaddress
+ERR: 1062:Duplicate entry '7' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `address` (`addid`) VALUES ('7')
+
+[ 2018-11-21T10:41:11+08:00 ] ::1 /bookstore/Home/Address/maaddress
+ERR: 1062:Duplicate entry '7' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `address` (`addid`) VALUES ('7')
+
+[ 2018-11-21T11:16:37+08:00 ] ::1 /bookstore/index.php
+ERR: 无法加载控制器:Index
+

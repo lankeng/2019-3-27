@@ -1,0 +1,73 @@
+[ 2018-11-28T11:07:48+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-11-28T11:17:36+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-11-28T11:21:10+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:21:42+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:21:59+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:22:00+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:22:03+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:22:38+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:24:58+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:25:57+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:34:43+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:40:11+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:40:26+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 非法操作:bookclaindex
+
+[ 2018-11-28T11:40:39+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:40:44+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 非法操作:bookclaindex
+
+[ 2018-11-28T11:40:50+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:42:38+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:57:17+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T11:58:31+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex
+ERR: 模板不存在:./Application/Admin/View/Index/bookclaindex.html
+
+[ 2018-11-28T15:04:10+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sort` WHERE ( id>10 ) LIMIT 1  
+
+[ 2018-11-28T15:04:49+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sort` WHERE ( id>10 ) LIMIT 1  
+
+[ 2018-11-28T15:05:13+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sort` WHERE ( id<10 ) LIMIT 1  
+
+[ 2018-11-28T15:05:25+08:00 ] ::1 /bookstore/Admin/Index/bookclaindex.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sort` WHERE ( id>10 ) LIMIT 1  
+

@@ -1,0 +1,466 @@
+[ 2017-12-11T19:48:44+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T19:48:57+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T19:55:16+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T19:59:57+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:02:02+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:03:39+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:04:55+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:06:00+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:09:38+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:10:37+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:14:49+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:16:53+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:18:55+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004987s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.028845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'ffff' LIMIT 1   [ RunTime:0.011760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2017-12-11T20:19:21+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T20:30:54+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2017-12-11T20:31:04+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2017-12-11T20:31:46+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-12-11T20:32:00+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-12-11T20:32:44+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2017-12-11T20:32:55+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-12-11T20:33:25+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-12-11T20:33:56+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-12-11T20:34:16+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-12-11T20:34:28+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-12-11T20:34:39+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2017-12-11T20:34:59+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2017-12-11T20:35:12+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-12-11T20:35:16+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-12-11T20:35:52+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-12-11T20:36:34+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2017-12-11T20:37:32+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-12-11T20:37:46+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-12-11T20:39:02+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-12-11T20:39:13+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2017-12-11T20:39:24+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2017-12-11T20:39:33+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2017-12-11T20:42:22+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.005043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'aqaa' LIMIT 1   [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-12-11T20:42:39+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.004280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'aqaa' LIMIT 1   [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2017-12-11T20:42:50+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.003253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-12-11T20:55:36+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2017-12-11T20:55:58+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.035580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'dsagdf' LIMIT 1   [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-12-11T20:56:49+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T21:01:06+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003030s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.008867s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'rdeyhwe5' LIMIT 1   [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2017-12-11T21:03:46+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T21:04:49+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T21:04:55+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003176s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.007252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'rtsyh' LIMIT 1   [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2017-12-11T21:05:25+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T21:12:34+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.006427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'hgd' LIMIT 1   [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-12-11T21:12:37+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.005079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'hgdgdfg' LIMIT 1   [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2017-12-11T21:12:39+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-12-11T21:12:42+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.010013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'ghfhd' LIMIT 1   [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2017-12-11T21:13:27+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-12-11T21:13:29+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.008477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'rtyhj' LIMIT 1   [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2017-12-11T21:13:40+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-12-11T21:41:56+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2017-12-11T21:42:03+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2017-12-11T21:42:35+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2017-12-11T21:53:28+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2017-12-11T22:00:58+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.007042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'tydnjrt' LIMIT 1   [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2017-12-11T22:01:31+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T22:02:35+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.056984s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'ghtrhn' LIMIT 1   [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2017-12-11T22:03:20+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T22:03:42+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.047910s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'gf,jkl' LIMIT 1   [ RunTime:0.001220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-12-11T22:04:11+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.008831s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'fsvgd' LIMIT 1   [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-12-11T22:04:27+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T22:05:06+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.010784s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'sp' LIMIT 1   [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2017-12-11T22:05:32+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-11T22:23:39+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+

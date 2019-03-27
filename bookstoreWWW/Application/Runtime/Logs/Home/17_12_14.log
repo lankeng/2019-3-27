@@ -1,0 +1,131 @@
+[ 2017-12-14T10:19:49+08:00 ] 127.0.0.1 /sp_shop/Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:19:49+08:00 ] 127.0.0.1 /sp_shop/Public/js/style.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:19:50+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:20:53+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:20:53+08:00 ] 127.0.0.1 /sp_shop/Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:20:53+08:00 ] 127.0.0.1 /sp_shop/Public/js/style.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:21:52+08:00 ] 127.0.0.1 /sp_shop/Public/css/home.css
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:21:52+08:00 ] 127.0.0.1 /sp_shop/Public/js/style.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:21:52+08:00 ] 127.0.0.1 /sp_shop/Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:21:53+08:00 ] 127.0.0.1 /sp_shop/Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:21:53+08:00 ] 127.0.0.1 /sp_shop/Public/js/style.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:22:26+08:00 ] 127.0.0.1 /sp_shop/Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T10:22:26+08:00 ] 127.0.0.1 /sp_shop/Public/js/style.js
+ERR: 无法加载控制器:Public
+
+[ 2017-12-14T13:21:29+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2017-12-14T13:21:59+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.004062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'Jas' LIMIT 1   [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-12-14T15:54:06+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-12-14T15:54:09+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.005119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `user` = 'dfsf' LIMIT 1   [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-12-14T15:55:44+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-12-14T16:26:23+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2017-12-14T16:27:29+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-12-14T16:27:48+08:00 ] 127.0.0.1 /sp_shop/Home/User/checkNameOnly
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-12-14T16:32:54+08:00 ] 127.0.0.1 /sp_shop/Home/User/layout
+ERR: 非法操作:layout
+
+[ 2017-12-14T16:34:11+08:00 ] 127.0.0.1 /sp_shop/Home/User/layout
+ERR: 非法操作:layout
+
+[ 2017-12-14T16:35:29+08:00 ] 127.0.0.1 /sp_shop/Home/User/layout
+ERR: 非法操作:layout
+
+[ 2017-12-14T16:36:38+08:00 ] 127.0.0.1 /sp_shop/Home/User/layout
+ERR: 非法操作:layout
+
+[ 2017-12-14T16:36:57+08:00 ] 127.0.0.1 /sp_shop/Home/User/layout
+ERR: 非法操作:layout
+
+[ 2017-12-14T16:37:04+08:00 ] 127.0.0.1 /sp_shop/Home/layout
+ERR: 无法加载控制器:Layout
+
+[ 2017-12-14T17:31:48+08:00 ] 127.0.0.1 /sp_shop/Home/layout
+ERR: 无法加载控制器:Layout
+
+[ 2017-12-14T17:32:28+08:00 ] 127.0.0.1 /sp_shop/Home/layout
+ERR: 无法加载控制器:Layout
+

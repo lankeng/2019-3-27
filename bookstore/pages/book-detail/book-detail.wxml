@@ -1,0 +1,45 @@
+<view id='box'>
+  <swiper indicator-dots="Boolean" indicator-color="#ebebeb" indicator-active-color="rgba(0, 0, 0, .3)" autoplay="Boolean" circular="Boolean">
+    <swiper-item>
+      <image src="{{data.Imgone}}" class="slide-image" />
+    </swiper-item>
+
+    <swiper-item>
+      <image src="{{data.Imgtwo}}" class="slide-image" />
+    </swiper-item>
+  </swiper>
+
+  <view class='box'>
+    <view class='title'>{{data.title}}</view>
+    <text class='price'>￥{{data.currentprice}}</text>
+  </view>
+
+  <view class='boxtwo'>
+    <view class="boxtwo-tab-nav {{HomeIndex == 0 ?'on':''}}" bindtap="boxtwo" data-index="0">图片详情</view>
+    <view class="boxtwo-tab-nav {{HomeIndex == 1 ?'on':''}}" bindtap="boxtwo" data-index="1">产品参数
+    </view>
+
+    <view class="boxtwo-content" class='img_one'>
+      <view wx:if="{{HomeIndex == 0}}" wx:for="{{data.img}}" wx:for-item="img" wx:key='item'>
+        <image src='{{img.image}}' mode="{{img.mode}}" class='boxtwo_image'></image>
+        <!-- <text>{{img.name}}</text> -->
+      </view>
+      <view wx:if="{{HomeIndex == 1}}" class='product'>
+        <view class='product-text'>书名：{{data.title}}</view>
+        <view class='product-text'>出版社：{{data.publisher}}</view>
+        <view class='product-text'>时间：{{data.pubTime}}</view>
+        <view class='product-text'>编辑：{{data.author}}</view>
+        <view class='product-text'>原价：{{data.price}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='dibu'>
+    <view class='left'>
+      <text class='text' bindtap="addcart" data-id="{{data.id}}"  data-title="{{data.title}}" data-claid='{{data.claid}}' data-currentprice="{{data.currentprice}}" data-image="{{data.image}}">加入购物车</text>
+    </view>
+    <view class='right'>
+      <text class='text' bindtap="goPay" data-id="{{data.id}}"  data-title="{{data.title}}" data-currentprice="{{data.currentprice}}" data-image="{{data.image}}">立即购买</text>
+    </view>
+  </view>
+</view>

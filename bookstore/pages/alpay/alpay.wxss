@@ -1,0 +1,26 @@
+/* pages/alpay/alpay.wxss */
+.alpay{
+  width: 100%;
+  text-align: center
+}
+.alpay-img{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 250rpx;
+}
+.alpay-text{
+  font-size: 40rpx;
+  color: #000000;
+  margin-top: 30rpx;
+}
+.alpay-btn{
+  width: 90%;
+  height: 82rpx;
+  background-color: #d81e06;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  line-height: 82rpx;
+  margin: auto;
+  border-radius: 10rpx;
+  margin-top: 60rpx
+}
