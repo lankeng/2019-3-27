@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2019 年 03 月 27 日 02:46
+-- 生成日期: 2019 年 04 月 25 日 00:56
 -- 服务器版本: 5.5.53
 -- PHP 版本: 5.4.45
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `address` (
   `address` varchar(255) DEFAULT NULL COMMENT '详细地址',
   `adcode` varchar(255) DEFAULT NULL COMMENT '邮政编码',
   PRIMARY KEY (`addid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=28 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
 
 --
 -- 转存表中的数据 `address`
@@ -93,14 +93,14 @@ CREATE TABLE IF NOT EXISTS `book` (
   `price` double DEFAULT NULL,
   `discount` float DEFAULT NULL,
   PRIMARY KEY (`bookid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=75 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=76 ;
 
 --
 -- 转存表中的数据 `book`
 --
 
 INSERT INTO `book` (`bookid`, `id`, `claid`, `title`, `value`, `image`, `Imgone`, `Imgtwo`, `selected`, `author`, `publisher`, `pubTime`, `currentprice`, `price`, `discount`) VALUES
-(61, 0, 26, '有话说', 1, './Public/Uploads/2018-12-30/5c288632ca360.jpg', './Public/Uploads/2018-12-30/5c288632cbeb9.jpg', './Public/Uploads/2018-12-30/5c288632cda11.jpg', 0, 'lk', '北京出版社', '2018-12-12', 45, 90, 5),
+(61, 0, 26, '有话说', 1, './Public/Uploads/2019-04-03/5ca407094521e.jpg', './Public/Uploads/2018-12-30/5c288632cbeb9.jpg', './Public/Uploads/2018-12-30/5c288632cda11.jpg', 0, 'lk', '北京出版社', '2018-12-12', 45, 90, 5),
 (62, 1, 26, '爱情保卫战', 1, './Public/Uploads/2018-12-30/5c2886f9edf37.jpg', './Public/Uploads/2018-12-30/5c2886f9eeed7.jpg', './Public/Uploads/2018-12-30/5c2886f9efe77.jpg', 0, 'lk', '北京出版社', '2018-12-12', 48, 80, 6),
 (63, 0, 27, '三国演义', 1, './Public/Uploads/2018-12-30/5c2887a911fbe.jpg', './Public/Uploads/2018-12-30/5c2887a913346.jpg', './Public/Uploads/2018-12-30/5c2887a913efe.jpg', 0, 'lk', '北京出版社', '2018-12-12', 72, 90, 8),
 (64, 0, 22, '小王子', 1, './Public/Uploads/2018-12-30/5c28882eed621.jpg', './Public/Uploads/2018-12-30/5c28882eee5c1.jpg', './Public/Uploads/2018-12-30/5c28882eef949.jpg', 0, 'lk', '北京出版社', '2018-12-12', 69.3, 99, 7),
@@ -153,7 +153,7 @@ CREATE TABLE IF NOT EXISTS `image` (
   `image` varchar(255) DEFAULT NULL,
   `mode` varchar(255) NOT NULL DEFAULT 'widthFix',
   PRIMARY KEY (`imageid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=58 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=59 ;
 
 --
 -- 转存表中的数据 `image`
@@ -211,7 +211,7 @@ CREATE TABLE IF NOT EXISTS `order` (
   `state` varchar(255) DEFAULT '待发货',
   PRIMARY KEY (`orderid`),
   KEY `orderid` (`orderid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=37 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=43 ;
 
 --
 -- 转存表中的数据 `order`
@@ -224,7 +224,12 @@ INSERT INTO `order` (`orderid`, `bookname`, `booknum`, `countprice`, `pay`, `rec
 (33, '小王子,听什么歌,人间有味，自在从容', '1,1,1', '69.3,34,28', 131.3, '456456', '12345678910', '北京市-西城区', '23132', '双休日、假日送货', '1', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货'),
 (34, '巴黎圣母院', '1', '46.8', 46.8, '456456', '12345678910', '北京市-西城区', '23132', '双休日、假日送货', '', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '已发货'),
 (35, '三国演义,你有你的计划，世界另有计划', '1,1', '72,24', 96, 'klk', '1234568910', '河北省-邯郸市-市辖区', '123', '不限时送货时间', '', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '包裹等待收揽'),
-(36, '大清十二帝', '1', '70', 70, 'klk', '1234568910', '河北省-邯郸市-市辖区', '123', '不限时送货时间', '45656456', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货');
+(36, '大清十二帝', '1', '70', 70, 'klk', '1234568910', '河北省-邯郸市-市辖区', '123', '不限时送货时间', '45656456', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货'),
+(37, '大清十二帝,为人三会,目客004', '1,1,1', '70,40,38.5', 148.5, '蓝铿', '13553733399', '广东省-潮州市-湘桥区', '哦哦哦哦哦', '工作日送货', '', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货'),
+(39, '小王子', '1', '69.3', 69.3, '蓝铿', '13553733399', '广东省-潮州市-湘桥区', '哦哦哦哦哦', '不限时送货时间', '', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货'),
+(40, '小王子', '30', '69.3', 2079, '蓝铿', '13553733399', '广东省-潮州市-湘桥区', '哦哦哦哦哦', '不限时送货时间', '', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货'),
+(41, '听什么歌', '1', '34', 34, '蓝铿', '13553733399', '广东省-潮州市-湘桥区', '哦哦哦哦哦', '工作日送货', '', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货'),
+(42, '听什么歌', '4', '34', 136, '蓝铿', '13553733399', '广东省-潮州市-湘桥区', '哦哦哦哦哦', '不限时送货时间', '', 'oVNCG5ABAkl6dYMd6onayhbr18Rc', '待发货');
 
 -- --------------------------------------------------------
 
@@ -237,7 +242,7 @@ CREATE TABLE IF NOT EXISTS `sort` (
   `ishaveChild` tinyint(1) NOT NULL DEFAULT '1',
   `cate_name` varchar(255) NOT NULL,
   PRIMARY KEY (`claid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=28 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=31 ;
 
 --
 -- 转存表中的数据 `sort`
@@ -276,7 +281,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `nickName`, `avatarUrl`, `city`, `country`, `gender`, `language`, `province`, `code`, `openid`) VALUES
-(6, '蓝铿', 'https://wx.qlogo.cn/mmopen/vi_32/rAy63xOK0TjCOIteBf7fkvZvtL2Nx9xgp44lsLqwAbBClDcXZS9aiboWW8kZWicTQDcQCqO8C0KmtrgQeUMn2YHQ/132', 'Chaozhou', 'China', 1, 'zh_CN', 'Guangdong', '023l0URD1fDwP50EX4RD1cMZRD1l0URS', 'oVNCG5ABAkl6dYMd6onayhbr18Rc');
+(6, '蓝铿', 'https://wx.qlogo.cn/mmopen/vi_32/rAy63xOK0TjCOIteBf7fkvZvtL2Nx9xgp44lsLqwAbBClDcXZS9aiboWW8kZWicTQDcQCqO8C0KmtrgQeUMn2YHQ/132', 'Chaozhou', 'China', 1, 'zh_CN', 'Guangdong', '023fUphT1EdM361HkoiT1fVvhT1fUphM', 'oVNCG5ABAkl6dYMd6onayhbr18Rc');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

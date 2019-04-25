@@ -252,9 +252,12 @@ Page({
     payItems = payItems.reverse()
     wx.setStorageSync("payItems", payItems)
     var total = this.data.total
-    wx.navigateTo({
-      url: '../../pages/pay/pay?total='+total
-     })
+    console.log(payItems)
+    if (payItems != '') {
+      wx.navigateTo({
+        url: '../../pages/pay/pay?total=' + total
+      })
+     }
   },
 
 

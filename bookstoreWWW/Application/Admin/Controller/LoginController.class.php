@@ -29,7 +29,9 @@ class LoginController extends Controller {
 				if ($fpassword == $password) {
 					session('username',$username);
 					session('adminid',$adminid);
-					$this->success('登录成功，请稍等', U('Index/bookclaindex'));
+					//$this->success('登录成功，请稍等', U('Index/bookclaindex'));
+					 //$this ->redirect('Index/bookclaindex');
+					  $this ->redirect('Index/bookclaindex');
 				}else{
 					$this->error('登录失败，用户名或密码错误', U('Login/login'));
 				}

@@ -133,7 +133,15 @@ Page({
         //   return;
         // }
         // 跳转到结算页面
-        wx.navigateBack({})
+        wx.showToast({
+          title: '保存成功',
+          icon: 'success',
+          duration: 1500
+        })
+        setTimeout(function () {
+          wx.navigateBack({})
+        }, 1500)
+        
       }
     })
   },
@@ -289,7 +297,15 @@ Page({
               deladdid: id
             },
             success: (res) => {
-              wx.navigateBack({})
+              wx.showToast({
+                title: '删除成功',
+                icon: 'success',
+                duration: 1500
+              })
+              setTimeout(function () {
+                wx.navigateBack({})
+              }, 1500)
+              
             }
           })
         } else if (res.cancel) {
